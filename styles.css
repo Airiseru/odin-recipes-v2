@@ -1,0 +1,63 @@
+* {
+    font-family: 'Karla', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-color: #fdfbee;
+}
+
+h1, h2, .heading-container h3 {
+    text-align: center;
+}
+
+.heading-container {
+    background-color: #bce3e7;
+    padding: 10px;
+}
+
+.heading-container h1 {
+    margin-bottom: 0;
+}
+
+.heading-container h3 {
+    margin-top: 5px;
+}
+
+.img-btn {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.cuisines {
+    margin: 50px auto;
+}
+
+.recipes {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 25px auto;
+}
+
+.recipe {
+    border: 3px solid black;
+    border-radius: 25px;
+    margin: auto 25px;
+    padding: 13px;
+}
+
+.recipe:hover {
+    box-shadow: 4px 4px rgb(114, 114, 114);
+    border-color: #50b5c0;
+}
+
+.food-name {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
