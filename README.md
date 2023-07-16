@@ -4,3 +4,4 @@ A simple project that contains recipes of some of my favorite foods.
 This is version 2 since I have made odin recipes before but I am restarting the curriculum again. Hence, a new recipe project.
 
 This is a project that is part of the Odin Project curriculum. This uses basic HTML and CSS.
+Specifically, it applies basic HTML elements such as headings, paragraphs, div and CSS styles such as margin, font, color, border, and CSS grid
