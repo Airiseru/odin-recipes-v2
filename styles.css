@@ -61,3 +61,70 @@ h1, h2, .heading-container h3 {
     color: black;
     text-decoration: none;
 }
+
+/* Design for Recipe Page */
+.recipe-title {
+    margin: 50px auto 0 auto;
+}
+
+.cuisine-type {
+    text-align: center;
+    margin: 0 auto 50px auto;
+}
+
+.img-desc-container, .info-container{
+    margin: 20px;
+    display: grid;
+    grid-template-rows: auto;
+}
+
+.food-img {
+    grid-column: 1 / span 1;
+    width: 500px;
+    height: auto;
+    border: 3px solid black;
+    border-radius: 25px;
+}
+
+.food-desc {
+    grid-column: 2 / span 8;
+    border: 2px dotted #50b5c0;
+    border-radius: 25px;
+    padding: 20px;
+    margin-left: 30px;
+}
+
+.food-desc p {
+    font-size: 20px;
+    padding: 0;
+    /* max-width: 1200px; */
+}
+
+.info-container {
+    grid-template-columns: auto auto auto;
+    margin: auto 10px;
+}
+
+.spec-container {
+    border: 2px dotted #50b5c0;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.recipe-ingredients, .recipe-info, .recipe-steps {
+    font-size: 18px;
+}
+
+.cont-title {
+    font-size: 20px;
+    margin: 10px auto;
+}
+
+ol {
+    margin: 10px auto;
+}
+
+li {
+    padding: 5px;
+}
